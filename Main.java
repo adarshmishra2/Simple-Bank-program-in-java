@@ -6,9 +6,13 @@ public class Main {
 
         Bank adarshacc=new Bank("12345",56464,"adarsh","adarsh@gmail.com","9899889944");
 
-        System.out.println(adarshacc.getAccnum());
-        System.out.println(adarshacc.getBalance());
-        System.out.println(adarshacc.getCustname());
+        double accnum = adarshacc.getAccnum();
+        double balance = adarshacc.getBalance();
+        String custName = adarshacc.getCustname();
+         
+        System.out.println(accnum);
+        System.out.println(balance);
+        System.out.println(custName);
 
 
 
